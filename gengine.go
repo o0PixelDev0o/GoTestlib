@@ -32,6 +32,6 @@ func run(){
 	
 }
 
-func gengine(){
+func DrawWindow(){
 	pixelgl.Run(run)
 }
