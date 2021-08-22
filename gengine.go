@@ -11,7 +11,7 @@ func Greet(){
 	fmt.Println("GENGINE")
 }
 
-func Run(){
+func run(){
 	cfg := pixelgl.WindowConfig{
 		Title:  "Pixel Rocks!",
 		Bounds: pixel.R(0, 0, 1024, 768),
@@ -32,6 +32,6 @@ func Run(){
 	
 }
 
-func DrawWindow(){
-	pixelgl.Run(Run)
+func main(){
+	//pixelgl.Run(run)
 }
