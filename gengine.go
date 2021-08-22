@@ -29,6 +29,9 @@ func NewWindow(Title string){
 		win.Update()
 	}
 
-	pixelgl.Run(run)
+	
 }
 
+func main(){
+	pixelgl.Run(run)
+}
