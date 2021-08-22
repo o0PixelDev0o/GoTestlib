@@ -1,4 +1,4 @@
-package main
+package gengine
 
 import (
 	"fmt"
@@ -32,6 +32,6 @@ func run(){
 	
 }
 
-func main(){
-	//pixelgl.Run(run)
+func Exec(){
+	pixelgl.Run(run)
 }
