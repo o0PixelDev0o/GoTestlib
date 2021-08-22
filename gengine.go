@@ -35,3 +35,7 @@ func run(){
 func Exec(){
 	pixelgl.Run(run)
 }
+
+func main(){
+	
+}
