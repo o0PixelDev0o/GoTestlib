@@ -33,5 +33,5 @@ func NewWindow(Title string){
 }
 
 func main(){
-	pixelgl.Run(run)
+	pixelgl.Run(NewWindow)
 }
